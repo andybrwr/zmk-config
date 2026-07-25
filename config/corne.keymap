@@ -17,6 +17,12 @@
             key-positions = <14 3 16>;
             layers = <0>;
         };
+
+        ToCad {
+            bindings = <&tog 5>;
+            key-positions = <27 28 29>;
+            layers = <0 5>;
+        };
     };
 
     keymap {
@@ -74,6 +80,8 @@
 &kp T    &kp LCTRL  &kp Z  &kp X  &kp C    &kp V        &trans  &trans  &trans  &trans  &trans  &trans
                            &to 0  &lt 4 B  &kp SPACE    &trans  &trans  &trans
             >;
+
+            label = "Game";
         };
 
         GameAlt {
@@ -83,6 +91,30 @@
 &trans  &trans  &kp N4  &kp N5  &kp N6  &kp B     &kp F11  &kp F12  &trans  &trans  &trans   &trans
                         &trans  &trans  &trans    &trans   &trans   &trans
             >;
+
+            label = "Num";
+        };
+
+        CAD {
+            bindings = <
+&kp ESC    &kp LC(Z)  &kp LC(Y)  &kp LC(S)  &kp DELETE  &kp N      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp L      &kp R      &kp C      &kp D       &kp M      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp X      &kp T      &kp E      &kp S       &kp F      &trans  &trans  &trans  &trans  &trans  &trans
+                                 &kp LALT   &tog 6      &kp RET    &trans  &trans  &trans
+            >;
+
+            label = "CAD";
+        };
+
+        CADView {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
+            >;
+
+            label = "View";
         };
     };
 };
