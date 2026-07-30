@@ -51,6 +51,7 @@
         GameAlt {
             bindings = <&kp LEFT_ALT>;
             key-positions = <25 13>;
+            layers = <3>;
         };
     };
 
