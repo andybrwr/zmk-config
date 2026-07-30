@@ -127,10 +127,10 @@
 
         CAD {
             bindings = <
-&kp ESC    &kp LC(Z)  &kp LC(Y)  &kp LC(S)  &kp DELETE  &kp N      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LSHFT  &kp L      &kp R      &kp C      &kp D       &kp M      &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &kp X      &kp T      &kp E      &kp S       &kp F      &trans  &trans  &trans  &trans  &trans  &trans
-                                 &kp LALT   &tog 6      &kp RET    &trans  &trans  &trans
+&kp ESC    &kp LC(Z)  &kp LC(Y)  &kp E     &kp R   &kp T      &trans  &trans  &trans  &trans  &trans  &trans
+&kp LSHFT  &kp LC(S)  &kp S      &kp D     &kp F   &kp DEL    &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp L      &kp X      &kp C     &kp N   &kp M      &trans  &trans  &trans  &trans  &trans  &trans
+                                 &kp LALT  &tog 6  &kp RET    &trans  &trans  &trans
             >;
 
             label = "CAD";
@@ -138,13 +138,13 @@
 
         CADView {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp KP_PLUS      &kp N7         &kp N8  &kp N9  &trans      &kp TAB
-&trans  &trans  &trans  &trans  &trans  &trans    &kp KP_SUBTRACT  &kp N4         &kp N5  &kp N6  &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &kp KP_MULTIPLY  &kp N1         &kp N2  &kp N3  &kp KP_DOT  &trans
-                        &trans  &trans  &trans    &kp KP_ENTER     &kp KP_DIVIDE  &kp N0
+&kp TAB  &kp KP_MULTIPLY  &kp N7  &kp N8  &kp N9  &kp KP_PLUS     &kp KP_PLUS      &kp N7         &kp N8  &kp N9  &trans      &kp TAB
+&trans   &kp KP_DIVIDE    &kp N4  &kp N5  &kp N6  &kp KP_MINUS    &kp KP_SUBTRACT  &kp N4         &kp N5  &kp N6  &trans      &trans
+&trans   &kp KP_DOT       &kp N1  &kp N2  &kp N3  &trans          &kp KP_MULTIPLY  &kp N1         &kp N2  &kp N3  &kp KP_DOT  &trans
+                                  &kp N0  &trans  &kp KP_ENTER    &kp KP_ENTER     &kp KP_DIVIDE  &kp N0
             >;
 
-            label = "View";
+            label = "CADNum";
         };
     };
 };
