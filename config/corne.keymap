@@ -47,6 +47,11 @@
             key-positions = <5 17>;
             layers = <3>;
         };
+
+        GameAlt {
+            bindings = <&kp LEFT_ALT>;
+            key-positions = <25 13>;
+        };
     };
 
     keymap {
