@@ -24,30 +24,6 @@
             layers = <0 5>;
         };
 
-        Game1 {
-            bindings = <&kp NUMBER_1>;
-            key-positions = <2 14>;
-            layers = <3>;
-        };
-
-        Game2 {
-            bindings = <&kp NUMBER_2>;
-            key-positions = <15 3>;
-            layers = <3>;
-        };
-
-        Game3 {
-            bindings = <&kp NUMBER_3>;
-            key-positions = <16 4>;
-            layers = <3>;
-        };
-
-        Game4 {
-            bindings = <&kp NUMBER_4>;
-            key-positions = <5 17>;
-            layers = <3>;
-        };
-
         GameAlt {
             bindings = <&kp LEFT_ALT>;
             key-positions = <25 13>;
